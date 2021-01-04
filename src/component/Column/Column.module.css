@@ -1,0 +1,11 @@
+.Container {
+  margin: 8px;
+  border: 2px solid lightgray;
+  background:#f3f4f7;
+  border-radius: 6px;
+  width:220px;
+  display:flex;
+  flex-direction:column
+}
+
+
