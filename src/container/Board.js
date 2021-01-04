@@ -156,18 +156,6 @@ class Board extends Component {
                         
                     )}
                 </Droppable>
-                <Droppable droppableId="delete">
-                    {(provided) => (
-                        <div 
-                            {...provided.droppableProps}
-                            ref={provided.innerRef} >
-                            hello
-                            {provided.placeholder}
-                            {/* {!this.state.formOpen ? addAnotherListButton : addListConfirm} */}
-                        </div>
-
-                    )}
-                </Droppable>
             </DragDropContext>
         )
     }
